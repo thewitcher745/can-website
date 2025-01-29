@@ -1,7 +1,7 @@
-export default {
-    content: ['./src/**/*.{js,jsx,ts,tsx}'],
+module.exports = {
     theme: {
-        extend: {},
+        extend: {
+        },
     },
     plugins: [],
-}
+};

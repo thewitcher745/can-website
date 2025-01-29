@@ -9,15 +9,11 @@
   font-family: 'Helvetica Bold', serif;
 }
 
-.landing-title-container {
-  border-left: 10px solid colors.$highlight-color;
-}
-
 #landing-bg {
   background-color: colors.$primary-color;
   background-image: url("src/assets/images/landing-bg.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   position: absolute;
   width: 100%;

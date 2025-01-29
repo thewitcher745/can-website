@@ -3,7 +3,9 @@ import './App.scss'
 
 function App() {
     return (
-        <HomePage/>
+        <>
+            <HomePage/>
+        </>
     )
 }
 
