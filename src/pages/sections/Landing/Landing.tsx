@@ -3,9 +3,8 @@ import {motion} from 'framer-motion';
 
 const Landing = () => {
     return (
-        <section id="landing" className="flex py-20">
+        <section id="landing" className="flex py-20 h-[100vh] bg-none">
             <div id="landing-bg"/>
-            {/*<div id="bg-overlay"/>*/}
             <div className="flex justify-start w-full h-full items-baseline">
                 <div className="landing-title-container px-7 mx-10">
                     <motion.p
