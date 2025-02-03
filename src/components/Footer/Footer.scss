@@ -1,0 +1,16 @@
+@use "@styles/colors";
+
+footer {
+  background-color: #1a202c;
+  color: #e2e8f0;
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  a {
+    color: #e2e8f0;
+    &:hover {
+      color: #63b3ed;
+    }
+  }
+}
