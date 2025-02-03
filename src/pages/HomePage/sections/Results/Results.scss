@@ -1,0 +1,13 @@
+@use "@styles/colors";
+
+@font-face {
+  font-family: 'Helvetica Bold';
+  src: url('../../../../assets/fonts/Helvetica-Bold.ttf') format('truetype');
+}
+
+.services-bg {
+  background-image: url("../../../../assets/images/bg-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
