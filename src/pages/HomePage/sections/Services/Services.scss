@@ -1,32 +1,16 @@
-@use "@styles/colors.scss";
+@use "@styles/colors";
 
 @font-face {
   font-family: 'Helvetica Bold';
-  src: url('src/assets/fonts/Helvetica-Bold.ttf') format('truetype');
+  src: url('../../../../assets/fonts/Helvetica-Bold.ttf') format('truetype');
 }
 
 .services-bg {
-  background-image: url("src/assets/images/bg-3.jpg");
+  background-image: url("../../../../assets/images/bg-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
-//html,
-//body {
-//  scroll-behavior: smooth;
-//  background: #fff;
-//  width: 100%;
-//  height: 100vh;
-//  padding: 0;
-//  margin: 0 !important;
-//  font-family: 'iran-sans', sans-serif ;
-//  direction: rtl;
-//  display: flex;
-//  align-items: center;
-//  justify-content: center;
-//}
 
 span,
 div,

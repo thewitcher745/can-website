@@ -1,4 +1,4 @@
-import SectionDivider from "../../../components/SectionDivider/SectionDivider.tsx";
+import SectionDivider from "../../../../components/SectionDivider/SectionDivider.tsx";
 import "./Services.scss"
 
 const Services = () => {
@@ -24,24 +24,6 @@ const Services = () => {
                             </p>
                         </div>
                     </div>
-                    {/*<div className="2xl:w-3/5 w-full flex flex-col h-full">*/}
-                    {/*    <div className="p-5 m-2 rounded-lg shadow-lg transition-transform transform hover:translate-y-[-5px] hover:shadow-xl bg-gray-800 flex-grow">*/}
-                    {/*        <h4 className="text-2xl font-bold text-white mb-2">Real-Time Trading Signals</h4>*/}
-                    {/*        <p className="text-gray-300">Make informed decisions with our real-time signals.</p>*/}
-                    {/*    </div>*/}
-                    {/*    <div className="p-5 m-2 rounded-lg shadow-lg transition-transform transform hover:translate-y-[-5px] hover:shadow-xl bg-gray-800 flex-grow">*/}
-                    {/*        <h4 className="text-2xl font-bold text-white mb-2">Algorithmic Trading</h4>*/}
-                    {/*        <p className="text-gray-300">Execute trades with precision and speed.</p>*/}
-                    {/*    </div>*/}
-                    {/*    <div className="p-5 m-2 rounded-lg shadow-lg transition-transform transform hover:translate-y-[-5px] hover:shadow-xl bg-gray-800 flex-grow">*/}
-                    {/*        <h4 className="text-2xl font-bold text-white mb-2">Liquidation Heatmaps</h4>*/}
-                    {/*        <p className="text-gray-300">Gain insights into market liquidity.</p>*/}
-                    {/*    </div>*/}
-                    {/*    <div className="p-5 m-2 rounded-lg shadow-lg transition-transform transform hover:translate-y-[-5px] hover:shadow-xl bg-gray-800 flex-grow">*/}
-                    {/*        <h4 className="text-2xl font-bold text-white mb-2">Risk Management Training</h4>*/}
-                    {/*        <p className="text-gray-300">Learn strategies to manage and mitigate risks.</p>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
                     <div className="container" id="teamContainer">
                         <article className="article">
                             <a href="#" className="article-content">
